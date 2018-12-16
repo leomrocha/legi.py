@@ -49,7 +49,7 @@ machine sont: le disque dur (un SSD est beaucoup plus rapide), et le processeur
 (notamment sa fréquence, le nombre de cœurs importe peu car le travail n'est pas
 parallèle).
 
-La taille du fichier SQLite créé est environ 3,3Go (en février 2017).
+La taille du fichier SQLite créé est environ 3,7Go (en décembre 2018).
 
 `tar2sqlite` permet aussi de maintenir votre base de données à jour, il saute
 automatiquement les archives qu'il a déjà traité. En général la DILA publie une
@@ -63,10 +63,10 @@ exemple avec [cron][cron] :
 
 ## Fonctionnalités
 
-### Normalisation des titres
+### Normalisation des titres et numéros
 
-Le module `normalize` corrige les titres de textes qui ne sont pas parfaitement
-"standards". Les données originales sont sauvegardées dans une table dédiée.
+Le module `normalize` corrige les titres de textes et les numéros d'articles qui
+ne sont pas parfaitement « standards ».
 
 ### Factorisation des textes
 
